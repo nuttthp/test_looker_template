@@ -12,23 +12,24 @@ view: data_intelligence_ar {
 
   parameter: Currency_Required{
     type: string
-    allowed_value: {
-      label: "USD"
-      value: "USD"
-    }
-    allowed_value: {
-      label: "EUR"
-      value: "EUR"
-    }
-    allowed_value: {
-      label: "CAD"
-      value: "CAD"
-    }
-    allowed_value: {
-      label: "JPY"
-      value: "JPY"
-    }
-    default_value: "USD"
+    sql: ${TABLE}.CurrencyKey_WAERS ;;
+    #allowed_value: {
+    #  label: "USD"
+    #  value: "USD"
+    #}
+    #allowed_value: {
+    #  label: "EUR"
+    #  value: "EUR"
+    #}
+    #allowed_value: {
+    #  label: "CAD"
+    #  value: "CAD"
+    #}
+    #allowed_value: {
+    #  label: "JPY"
+    #  value: "JPY"
+    #}
+    #default_value: "USD"
   }
 
   parameter: Day_Sales_Outstanding {
