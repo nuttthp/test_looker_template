@@ -29,7 +29,7 @@ view: data_intelligence_ar {
     #  label: "JPY"
     #  value: "JPY"
     #}
-    #default_value: "USD"
+    default_value: "USD"
   }
 
   parameter: Day_Sales_Outstanding {
