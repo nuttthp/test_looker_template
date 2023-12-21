@@ -6,7 +6,7 @@
   elements:
   - title: Account Receivable by Company
     name: Account Receivable by Company
-    model: cortex_sap_operational
+    model: cortex_sap_operational_test
     explore: data_intelligence_ar
     type: looker_pie
     fields: [data_intelligence_ar.Company_Name, data_intelligence_ar.Sum_of_Receivables]
