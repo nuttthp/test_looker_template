@@ -8,22 +8,22 @@
 
   "constants": {
     "CONNECTION_NAME": {
-      "label": "Connection Name",
+      "label": "gbq-betagro-data-analytics-poc",
       "value_constraint": "connection"
     },
     "GCP_PROJECT": {
-      "label": "GCP Project Name"
+      "label": "betagro-data-analytics-poc"
     },
     "REPORTING_DATASET": {
-      "label": "Reporting Dataset Name"
+      "label": "REPORTING"
     },
      "CLIENT": {
-      "label": "SAP Client ID"
+      "label": "900"
     }  
   },
       "models": [
         {
-            "name": "cortex_sap_operational",
+            "name": "cortex_sap_operational_test",
             "connection_constant": "CONNECTION_NAME"
         }
     ]
