@@ -10,7 +10,7 @@ view: data_intelligence_ar {
     default_value: "10"
   }
 
-  parameter: Currency_Required{
+  dimension: Currency_Required{
     type: string
     sql: ${TABLE}.CurrencyKey_WAERS ;;
     #allowed_value: {
@@ -29,7 +29,7 @@ view: data_intelligence_ar {
     #  label: "JPY"
     #  value: "JPY"
     #}
-    default_value: "USD"
+    #default_value: "USD"
   }
 
   parameter: Day_Sales_Outstanding {
