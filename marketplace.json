@@ -1,5 +1,5 @@
 {
-  "label": "Cortex Data Foundation for SAP - Operational Dashboards Modified",
+  "label": "Cortex Data Foundation for SAP - Operational Dashboards",
   "category_label": "Models",
   "branding": {
     "image_uri": "https://marketplace-api.looker.com/block-icons/cortex_icon.png",
@@ -8,22 +8,22 @@
 
   "constants": {
     "CONNECTION_NAME": {
-      "label": "gbq-betagro-data-analytics-poc",
+      "label": "Connection Name",
       "value_constraint": "connection"
     },
     "GCP_PROJECT": {
-      "label": "betagro-data-analytics-poc"
+      "label": "GCP Project Name"
     },
     "REPORTING_DATASET": {
-      "label": "REPORTING"
+      "label": "Reporting Dataset Name"
     },
      "CLIENT": {
-      "label": "900"
+      "label": "SAP Client ID"
     }  
   },
       "models": [
         {
-            "name": "cortex_sap_operational_test",
+            "name": "cortex_sap_operational",
             "connection_constant": "CONNECTION_NAME"
         }
     ]
